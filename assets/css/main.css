@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-nunito antialiased p-0 m-0 leading-4;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-poppins font-bold;
+  }
+  p {
+    @apply text-base mb-2;
+  }
+
+  h1 {
+    @apply text-5xl mb-3;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+}
